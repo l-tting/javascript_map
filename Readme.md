@@ -90,7 +90,7 @@ CREATE A NEW PROJECT CALLED JS-TRAINER
 *Type coercion vs Type Conversion*
 *Type coercion* - the automatic conversion of a value from one data type to another. this is done by the 
 language or program automatically
-*Type conversion* - the manual and explicit conversion of a value from one data type to another. This is done by the programmer : also called casting ddjjdjdj
+*Type conversion* - the manual and explicit conversion of a value from one data type to another. This is done by the programmer : also called casting 
 
 *Polymorphism* -> an object taking on more than one form
   -> method overloading & operator overloading
