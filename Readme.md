@@ -88,16 +88,17 @@ CREATE A NEW PROJECT CALLED JS-TRAINER
 
 
 *Type coercion vs Type Conversion*
-*Type coercion* - the automatic conversion of a value from one data type to another. this is done by the 
-language or program automatically
+*Type coercion* - the automatic conversion of a value from one data type to another. this is done by the language or program automatically
 *Type conversion* - the manual and explicit conversion of a value from one data type to another. This is done by the programmer : also called casting 
 
 *Polymorphism* -> an object taking on more than one form
   -> method overloading & operator overloading
 + -> used as an addition operator
-  -> used to concatenate twwo or more strings
+  -> used to concatenate two or more strings
+
 
 *digit string* -> a string that has all characters as numeric values
+
 
 *OPERATORS*
 -> special symbols used to perform specific operations in programming
@@ -106,11 +107,63 @@ language or program automatically
 + , - , / ,* , ** , % , ++, --
 2.Assignment Operators - used to assign values to variables
 =,+= , -= , /= , *=, %=, 
-3.Logical Operators
-4.Comparison Operators
+3.Logical Operators  - are used in logical operations
+  and  - returns true if all conditions are true --> &&
+  or  - returns true if at least one is true --> ||
+  not - negates the boolean value --> !
+4.Comparison Operators -> used to compare values
+> ,< ,>= ,<=
+== :loose equality - only checks for value ignoring data type
+        -> allows for type coercion
+=== : strict equality -> checks for both value and data type
+        -> doesnt allow for type coercion
+!= : loose inequality
+!== : strict inequality
 
 
+*CONDITIONAL STATEMENTS*
+-> These are data structures that enable a program make decisions based on some predefined rules / conditions
+-> An action is taken based on whether the condition is met or not 
+-> This is enabled by if-else statements
 
+*syntax of if-else statements*
+-> if(condition){
+     //what happens if the condition is met
+  }else{
+     //what happens if the condition is not met
+  }
+
+
+*syntax of if-else statements with multiple conditions*
+if(condition 1){
+    // what happens if condition 1 is met
+}else if(condition 2){
+   // what happens if condition 2 is met
+}else if(condition 3){
+   // what happens if condition 3 is met
+}else{
+   // what happens if none is met
+}
+
+*Taking user input in JS*
+-> User input in JS is through a prompt() function
+-> Any data coming from user input is always a string
+
+
+*Ternary Operator*
+-> Is a shorthand for writing simple if else statements
+-> It can only be used when there is only one condition to be met
+-> It uses the symbol '?'
+
+*syntax of ternary operator*
+
+let variable_name = condition ? what happens if condition is met : what happens if condition isnt met
+
+
+*TASK*
+-> slide 69
+
+8.Conditional Statement A student’s final grade is determined by their exam score (an number between 0 and 100) using the rules below: If the score is 70 or above, the grade is A If the score is 60 to 69, the grade is B If the score is 50 to 59, the grade is C If the score is 40 to 49, the grade is D If the score is below 40, the grade is F Task: Write a JavaScript program that: Stores a student’s score in a variable. Uses if, else if, and else statements to determine the grade. Prints the grade to the console.
 
 
 
