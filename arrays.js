@@ -1,0 +1,36 @@
+let values = [ 1,2,3,"Mango","Apples",true ]
+console.log(values)
+console.log(values[4])//Apples
+
+values[5] = false
+console.log(values)
+
+//length 
+console.log(values.length)//6
+
+//slice
+console.log(values.slice(2,5)) //(3) [3, 'Mango', 'Apples']
+
+//adding items with push
+values.push(8,9, "HP")
+console.log(values) //(9) [1, 2, 3, 'Mango', 'Apples', false, 8, 9, 'HP']
+
+
+//adding items with unshift
+values.unshift("Oranges",340)
+console.log(values) //(11) ['Oranges', 340, 1, 2, 3, 'Mango', 'Apples', false, 8, 9, 'HP']
+
+//removing items with pop
+values.pop()
+console.log(values) //(10) ['Oranges', 340, 1, 2, 3, 'Mango', 'Apples', false, 8, 9]
+
+//removing items with shift
+values.shift()
+console.log(values) //(9) [340, 1, 2, 3, 'Mango', 'Apples', false, 8, 9]
+
+//includes
+console.log(values.includes('Oranges')) //false
+
+//at 
+console.log(values.at(3)) //3
+console.log(values.at(-2)) // -8

@@ -168,6 +168,60 @@ let variable_name = condition ? what happens if condition is met : what happens 
 
 
 
+Create a variable called year and enter the a random year. Check if the year is a leap year or not. A leap year is a year that is divisible by 4  not divisible by 100 or divisible  by 400.
+
+
+Write a js program that checks if a variable student_score is greater than 90. If true, check if the attendance is greater than 80. If both conditions are true, display"Excellent student", otherwise display "Good score, but attendance needs improvement"
+
+
+*DATA STRUCTURES (COLLECTIONS)*
+-> a data structure is a collection of multiple values in one variable / memory location 
+-> In JS we have 2 data structures:
+a) Arrays
+b) Objects
+
+*Arrays*
+-> A collection of multiple values that could be of different data types
+-> It is the equivalent of lists in Python 
+
+*Properties of arrays*
+1.They can hold multiple values of any data type
+2.They are ordered  -> values can be accessed using index 
+           => by default there is no -ve indexing in js arrays (indexing is zero based)
+3.They are mutable - values can be changed 
+4.Values in an array are comma-separated
+5.They have access to methods
+6.They are represented using []
+
+
+*Array Methods*
+1.Accessing values in arrays - uses indexing(indexing is zero-based by default)
+2.Updating or changing values in an array -> use indexing
+3.length - determines the no of items in an array
+5.slice() -> extracts a portion of an array .slice(start, end)
+6.Adding items to an array
+     -> push() : add items at the end of an array
+     -> unshift() : add items at the start of an array
+7.Removing items from an array
+     -> pop(): removing array items at the end
+     -> shift() : removing items at the start of an array
+8.includes() : checks whether an item is contained in an array (returns a boolean)
+9.at() : used to access a value by index (it allows for both zero-based and -ve indexing)
+
+
+*Task*
+1.Find out what the following array methods do:
+  -> splice()
+  -> sort()
+  -> concat()
+2.Task on slides 72 & 73
+
+
+
+
+*why indexing starts from zero?*
+*spread operators*
+
 
 
 
