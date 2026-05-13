@@ -221,6 +221,42 @@ b) Objects
 
 *why indexing starts from zero?*
 *spread operators*
+-> used to combine or join array items by unpacking
+->
+
+
+*OBJECTS*
+-> A data structure that stores values in key-value pairs
+-> It is the equivalent of a a dictionary in Python
+
+*Properties of Objects*
+1.stores values in key-value pairs
+2.Key is used to access the value
+3.Key is considered to be a string
+4.Values can be of any data type
+5.They are mutable
+6.Represented using {}
+
+*property* - key + value pair
+
+
+*why use objects?*
+1.To store related data
+2.To represent real world entities
+3.To store complex data in a structured manner
+
+*Object Operations*
+1.accessing values in an object -> use the key to access the value
+    -> dot notation : when the key follows identifier naming rules
+    -> bracket notation : used regardless of whether the key follows identifier naming rules or not
+2.Object.keys() - returns all object keys in an array
+3.Object.values() - returns all object values in an array
+4.Object.entries() - returns all key value pairs in an array
+
+
+*task*
+-> slides 78 & 79
+
 
 
 

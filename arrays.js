@@ -34,3 +34,11 @@ console.log(values.includes('Oranges')) //false
 //at 
 console.log(values.at(3)) //3
 console.log(values.at(-2)) // -8
+
+let numbers1 = [1,2,3,4]
+let numbers2 = [5,6,7,8]
+let combined = numbers1.concat(numbers2)
+console.log(combined)//(8) [1, 2, 3, 4, 5, 6, 7, 8]
+
+let combined2 = [...numbers1,...numbers2]
+console.log(combined2)//(8) [1, 2, 3, 4, 5, 6, 7, 8]
