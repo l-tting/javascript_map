@@ -259,6 +259,104 @@ b) Objects
 
 
 
+*LOOPS*
+-> are control structures that are used to execute a block of code repeatedly until a specific 
+condition is met
+-> It aims to reduce redundancy for a developer
+
+*Types of Loops*
+1.for loop : used when you have a definitive starting point and ending point
+           -> it comprises of 3 parts:
+            a) initialization - starting point of your loop
+            b) condition - condition to be met for the loop to keep running
+            c) update : increment or decrement after an iteration (++ or --)
+            *syntax*
+            for(initialization; condition ; update){
+              //block executing repeatedly
+            }
+2.while : runs as long as the condition is met 
+   while(condition){
+      //block of code executing repeatedly
+   }
+3.do while - executes at least once before checking for the condition in the loop
+
+
+*Nested Loops*
+*Complex data structures*
+
+*Task on Loops*
+1.slide 82
+
+*Task on complex data structures*
+In the below complex data structure output the following:
+  a)PostgreSQL
+  b)Brand Strategy
+  c)React
+
+let company = {
+  name: "TechCorp",
+  founded: 2010,
+  location: {
+    country: "Kenya",
+    city: "Nairobi",
+    address: {
+      street: "Kenyatta Avenue",
+      building: "Tech Plaza",
+      floor: 5
+    }
+  },
+  departments: [
+    {
+      name: "Engineering",
+      head: "Alice",
+      employees: [
+        { id: 1, name: "John", role: "Frontend Developer", skills: ["JavaScript", "React", "CSS"] },
+        { id: 2, name: "Sarah", role: "Backend Developer", skills: ["Python", "Django", "PostgreSQL"] }
+      ]
+    },
+    {
+      name: "Marketing",
+      head: "Bob",
+      employees: [
+        { id: 3, name: "Mike", role: "SEO Specialist", skills: ["SEO", "Google Analytics", "Content Writing"] },
+        { id: 4, name: "Jane", role: "Social Media Manager", skills: ["Facebook Ads", "Instagram", "Brand Strategy"] }
+      ]
+    }
+  ],
+  projects: [
+    {
+      title: "E-commerce Website",
+      deadline: "2025-09-30",
+      team: [1, 2] // Employee IDs
+    },
+    {
+      title: "Brand Awareness Campaign",
+      deadline: "2025-10-15",
+      team: [3, 4]
+    }
+  ]
+};
+
+
+
+
+*break* & *continue*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
